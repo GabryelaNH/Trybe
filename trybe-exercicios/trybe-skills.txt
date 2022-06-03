@@ -1,6 +1,10 @@
-- Unix
-- Bash
-- Git
+
+O que eu vou aprender na Trybe:
+
+-Unix
+-Bash
+-Git
+- Front-end
 - HTML
 - CSS
-
+
