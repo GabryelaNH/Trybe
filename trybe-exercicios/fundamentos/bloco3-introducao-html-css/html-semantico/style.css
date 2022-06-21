@@ -10,12 +10,13 @@ img {
     width: 300px;
 }
 article , aside {
-    display: inline-block;
+    display: flexbox;
+    border: black solid 2px;
 }
 article {
     width: 80%;
 }
 aside {
-    top: 0px;
-    width: 100px;
+float: right;
+top: 0px;
 }
