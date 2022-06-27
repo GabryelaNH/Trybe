@@ -12,4 +12,4 @@ let player = {
 }
 
 console.log('A jogadora' + ' ' + player.name + ' ' + player.lastName + ' tem ' + player.age + ' anos de idade.')
-console.log('A jogadora '+player.name + ' ' + player.lastName +'' foi eleita a melhor do mundo por ' + bestInTheWorld['bestInTheWorld.lenght']))
+console.log('A jogadora ' + player.name+ ' '+ player.lastName+ ' foi eleita a melhor do mundo por '+ player.bestInTheWorld[bestInTheWorld.lenght] +' vezes');
