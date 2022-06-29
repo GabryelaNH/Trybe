@@ -59,18 +59,20 @@ console.log(
 );
 
 //   2
-let palavra = "arara";
-let pali = "";
+let palavra = 'chata';
+let pali = ''
 
-function verificaPalindrome(palavra, pali) {
-  for (let index = palavra.length -1; index = 0; index -= 1) {
-  pali.push(index);
-  }
-  if (palavra === pali) {
-    console.log(true)
-  } else {
-    console.log(false)
-  }
+function verificaPalindrome (palavra, pali) {
+  for (let index = palavra.length -1; index >= 0; index -= 1) {
+  pali += palavra[index]
 
-}
-    return verificaPalindrome(palavra);
+  }
+    if (palavra == pali) {
+      console.log ("irra")
+    } else {
+    console.log("ah")
+    }
+  }
+  return verificaPalindrome (palavra, pali)
+
+array = [2, 3, 6, 7, 10, 1];
