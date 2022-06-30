@@ -22,14 +22,16 @@ elemento.appendChild(filho)
 
 let filhao = document.getElementById("primeiroFilhoDoFilho")
 let neto = document.createElement('section')
+neto.className = 'neto'
 neto.innerText = 'vovozao'
 
 filhao.appendChild(neto)
 
 document.getElementsByClassName("neto")[0].parentNode.parentNode.nextSibling.nextSibling
 
+let paidopai = document.getElementById("paiDoPai")
 let remove = document.getElementById("primeiroFilho")
 let remove3 = document.getElementById("segundoEUltimoFilhoDoFilho")
 let remove4 = document.getElementById("terceiroFilho")
 let remove5 = document.getElementById("quartoEUltimoFilho")
-pai.removeChild(remove)
+paidopai.removeChild(neto)
